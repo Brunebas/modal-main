@@ -1,0 +1,24 @@
+<ng-container *ngIf="mostrar">
+  <div class="modal">
+    <app-modal></app-modal>
+    <button (click)="modal2()" class="segundoBotao">
+      clique aqui novamente
+    </button>
+  <div class="quadrado">
+    <img src="https://s2.glbimg.com/p9K8YzDILQH1rPRajUzy5kcSWRc=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/H/F/qVVZjpRN2fwAIliJar3w/macaco-joi.jpeg" class="imagem">
+    <p class="legenda">mamaco</p>
+    <ng-content></ng-content>
+  </div>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="mostrar2">
+  <div class="modal2">
+    <app-modal></app-modal>
+    <div class="quadrado2">
+      <p class="legenda2">outro mamaco</p>
+      <img src="https://s.yimg.com/ny/api/res/1.2/l4qejeM_sd39CITvFbESsg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ5MA--/https://media.zenfs.com/pt/extra_347/0a17d27a68024b3d7278e82e0fb5402d" class="imagem">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</ng-container>

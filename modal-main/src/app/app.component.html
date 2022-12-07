@@ -1,0 +1,26 @@
+<img src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/Foto-de-Nuvem-PNG.png" class="nuvem3">
+
+<img src="https://imagensemoldes.com.br/wp-content/uploads/2020/04/Foto-de-Nuvem-PNG.png" class="nuvem1">
+
+<img src="https://assets.stickpng.com/images/580b585b2edbce24c47b2638.png" class="nuvem2">
+<div class="test"></div>
+<button (click)="modal.modal()" class="botao">
+    clique aqui
+</button>
+<app-modal #modal></app-modal>
+
+<app-modal #modal2></app-modal>
+<input type="number" [(ngModel)]="statusCode" />
+
+<button (click)="consultar()">Consultar</button>
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+<img *ngIf="linkImage" [src]="linkImage" class="api">

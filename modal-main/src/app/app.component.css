@@ -1,0 +1,36 @@
+.botao{
+    background-color: #a0dff1;
+    border-radius: 10px;
+    border: 0px;
+    width: 100px;
+    height: 50px;
+}
+
+.nuvem1{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+}
+
+.nuvem2{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+
+.nuvem3{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+.api{
+    text-align: center;
+    position: absolute;
+    left: 30%;
+}
